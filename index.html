@@ -147,6 +147,42 @@
             border: 1px solid rgb(206, 206, 170) !important;
             box-shadow: 5px 5px 5px 0.9 beige;
         }
+
+        .whatsapp-btn {
+            position: fixed;
+            bottom: 25px;
+            right: 25px;
+            background: linear-gradient(to right, #25D366, #1ebe5d);
+            color: white;
+            font-size: 28px;
+            padding: 16px 18px;
+            border-radius: 50%;
+            box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+            z-index: 9999;
+            transition: all 0.3s ease;
+            animation: pulse 2s infinite;
+        }
+
+        .whatsapp-btn:hover {
+            transform: scale(1.1);
+            box-shadow: 0 0 15px #25D366;
+            background: linear-gradient(to right, #1ebe5d, #25D366);
+            color: #fff;
+        }
+
+        @keyframes pulse {
+            0% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0.5);
+            }
+
+            70% {
+                box-shadow: 0 0 0 15px rgba(37, 211, 102, 0);
+            }
+
+            100% {
+                box-shadow: 0 0 0 0 rgba(37, 211, 102, 0);
+            }
+        }
     </style>
 </head>
 
@@ -400,6 +436,9 @@
             © 2025 FashionStore. All rights reserved.
         </div>
     </footer>
+    <a href="https://wa.me/923439693468" target="_blank" class="whatsapp-btn">
+        <i class="bi bi-whatsapp"></i>
+    </a>
 
 
 
