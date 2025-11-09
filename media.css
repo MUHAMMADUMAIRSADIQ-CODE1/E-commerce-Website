@@ -1,0 +1,130 @@
+ @media only screen and (min-width:200) and (max-width: 575px) {
+     .search-bar {
+         width: 100%;
+         /* margin-top: 10px; */
+     }
+
+     .bg {
+         background-color: beige !important;
+         border: 1px solid rgb(206, 206, 170) !important;
+         box-shadow: 5px 5px 5px 0.9 beige;
+     }
+
+
+
+     .position-relative img {
+         height: 50vh !important;
+         width: 100vw;
+         overflow-x: hidden;
+     }
+
+     .dis {
+         font-size: 20px;
+         margin: 0px 0px 8px;
+         font-weight: 800;
+     }
+
+     .le {
+         font-size: 15px;
+         margin: 0px 0px 16px;
+         font-weight: 600;
+     }
+
+     .ch {
+         font-size: 17px;
+         padding: 8px 16px;
+         font-weight: 700;
+
+     }
+ }
+
+ @media only screen and (min-width:576) and (max-width: 768px) {
+     .search-bar {
+         width: 100%;
+         /* margin-top: 10px; */
+     }
+
+     .bg {
+         background-color: beige;
+         border: 1px solid rgb(206, 206, 170) !important;
+         box-shadow: 5px 5px 5px 0.9 beige;
+     }
+
+     .position-relative img {
+         height: 60vh !important;
+         width: 100vw;
+         overflow-x: hidden;
+     }
+
+     .dis {
+         font-size: 30px;
+         margin: 0px 0px 8px;
+         font-weight: 800;
+     }
+
+     .le {
+         font-size: 15px;
+         margin: 0px 0px 16px;
+         font-weight: 600;
+     }
+
+     .ch {
+         font-size: 17px;
+         padding: 8px 16px;
+         font-weight: 700;
+
+     }
+ }
+
+ @media only screen and (min-width:769) and (max-width: 992px) {
+     .search-bar {
+         width: 100%;
+         /* margin-top: 10px; */
+     }
+
+     .bg {
+         background-color: beige;
+         border: 1px solid rgb(206, 206, 170) !important;
+         box-shadow: 5px 5px 5px 0.9 beige;
+     }
+
+     .position-relative img {
+         height: 70vh !important;
+         width: 100vw;
+         overflow-x: hidden;
+     }
+
+     .dis {
+         font-size: 30px;
+     }
+
+     .le {
+         font-size: 18px;
+     }
+
+     .ch {
+         font-size: 20px;
+     }
+ }
+
+
+
+ @media only screen and (min-width:993) and (max-width: 1199px) {
+     .position-relative img {
+         height: 80vh !important;
+         width: 100vw;
+         overflow-x: hidden;
+     }
+
+     .dis {
+         font-size: 40px;
+     }
+
+     .le {
+         font-size: 20px;
+     }
+
+     .ch {
+         font-size: 22px;
+     }
+ }

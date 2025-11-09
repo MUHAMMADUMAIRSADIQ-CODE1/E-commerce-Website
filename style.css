@@ -1,0 +1,117 @@
+
+*{
+ font-family: 'Poppins', sans-serif;
+}
+.position-absolute{
+   position: absolute !important;
+   top: 50%;      
+  left: 50%;     
+  transform: translate(-50%, -50%); 
+  text-align: center;
+  color: white;   
+ padding: 20px;
+  border-radius: 10px;
+    z-index: 100;
+}
+.position-relative{
+position: relative !important;
+}
+.position-relative img{
+    height: 100vh;
+    width: 100vw;
+    overflow-x: hidden;
+}
+.dis{
+    font-size: 48px;
+    /* line-height: 1.2rem; */
+    margin: 0px 0px 8px;
+    font-weight: 700;
+}
+.le{
+    font-size: 20px;
+    margin: 0px 0px 16px;
+    font-weight: 400;
+    
+}
+.ch{
+    font-size: 20px;
+    padding: 8px 16px;
+    font-weight: 700;
+    
+}
+.card-img-top{
+/* height: 250px; */
+/* object-fit: cover; */
+}
+.car{
+    position: relative;
+}
+.car span{
+    position: absolute;
+}
+.top{
+     position: absolute;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+  background: linear-gradient(to right, #ff00ff, #00ffff, #ffff00);
+    animation: topline 1s forwards 0s infinite;
+}
+@keyframes topline{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:100%;
+    }
+}
+.right{
+     position: absolute;
+    top: 0;
+    right: 0;
+    width: 2px;
+    height: 0;
+    background: linear-gradient(to right, #ff00ff, #00ffff, #ffff00);
+    animation: rightline 1s forwards 0s infinite;
+}
+@keyframes rightline{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height:100%;
+    }
+}.bottom{
+     position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 0;
+    height: 2px;
+   background: linear-gradient(to right, #ff00ff, #00ffff, #ffff00);
+    animation: bottomline 1s forwards 0s infinite;
+}
+@keyframes bottomline{
+    0%{
+        width: 0%;
+    }
+    100%{
+        width:100%;
+    }
+}.left{
+     position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 2px;
+    height: 0;
+   background: linear-gradient(to right, #ff00ff, #00ffff, #ffff00);
+    animation: leftline 1s forwards 0s infinite;
+}
+@keyframes leftline{
+    0%{
+        height: 0%;
+    }
+    100%{
+        height:100%;
+    }
+}
